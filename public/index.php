@@ -1,6 +1,6 @@
 <?php
 
-// Basic autoloader to load classes from the src directory
+// Basic autoloader to load classes from the src directory  just a
 spl_autoload_register(function ($class) {
     $prefix = 'App\\';
     $base_dir = __DIR__ . '/../src/';
