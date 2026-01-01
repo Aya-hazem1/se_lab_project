@@ -7,7 +7,7 @@ class FileStorageService {
     private string $filePath;
     private array $tasks = [];
 
-    // Private constructor to prevent direct instantiation
+    // Private constructor to prevent direct instantiatiosn
     private function __construct(string $filePath) {
         $this->filePath = $filePath;
         $this->loadTasks(); // FR10: Load tasks on start
